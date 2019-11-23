@@ -1,0 +1,24 @@
+.navBar {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0px 0px 0px -10px;
+    padding-left: 2.5%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.topNav {
+    float: right;
+    padding: 0% 8.5% 0% 0%;
+    font-size: 13px;
+}
+  
+.navBar a:hover {
+    color: white;
+}

@@ -1,0 +1,65 @@
+#contact-me { 
+    /* background-image: url("https://www.colorhexa.com/eeeeee.png"); */
+    background-color: #f7f7f7;
+    position: absolute;
+    width: 100%;
+    margin:  -1vw;
+    height: 100vh;
+    text-align: left;
+    
+  }
+  
+  .contactText {
+    width: 28%;
+    float: left;
+    padding: 12% 0% 0% 18%;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactText img {
+      max-height: 90px;
+      object-fit: contain;
+      margin-left: -55px;
+  }
+  
+  .contactBox {
+    width: 49%;
+    float: right;
+    display: inline-block;
+    padding: 12% 1% 0% 0%;
+    margin: 0px 0px 5% 2.5%;
+  }
+  
+  #nameBox, #emailBox, #messageBox {
+    border: 1px solid grey;
+    width: 68%;
+    padding: 1.25%;
+  }
+  
+  #nameBox, #emailBox {
+    height: 20px;
+  }
+  
+  #messageBox {
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #sendMail {
+    text-transform: uppercase;
+    letter-spacing: .17em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1.1vw;
+    margin-top: 15px;
+  }
+  
+  #sendMail:hover {
+    background-color: white;
+    color: black;
+  }

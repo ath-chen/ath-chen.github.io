@@ -3,7 +3,7 @@ import Contact from './contact';
 
 import './projects.css'
 
-import project1 from './project-images/pictionary-thumbnail.jpg';
+import project1 from './project-images/pictionary.gif';
 import project2 from './project-images/cloak-n-dogger-thumbnail.jpg';
 
 const Projects = () => {
@@ -13,14 +13,14 @@ const Projects = () => {
                 <div className = "project-title"> Things I've Built </div>
 
                 <div className = "first-row-project">
-                    <a href = "project1">
+                    <a href = "project2">
                         <div className = "first-project-left">
-                            <img src={project2} />
+                            <img src={project2} alt='' />
                         </div>
                     </a>
-                    <a href = "project2">
+                    <a href = "project1">
                         <div className = "first-project-right">
-                            <img src ={project1} />
+                            <img src ={project1} alt=''/>
                         </div>
                     </a>
                 </div>

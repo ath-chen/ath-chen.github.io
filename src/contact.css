@@ -1,6 +1,7 @@
 #contact-me { 
     /* background-image: url("https://www.colorhexa.com/eeeeee.png"); */
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background: linear-gradient(35deg, #ffffff 65%, #f79f99 45%);
     position: absolute;
     width: 100%;
     margin:  -1vw;
@@ -12,7 +13,7 @@
   .contactText {
     width: 28%;
     float: left;
-    padding: 12% 0% 0% 18%;
+    padding: 12% 0% 0% 15%;
     font-weight: lighter;
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@
   }
   
   #nameBox, #emailBox, #messageBox {
-    border: 1px solid grey;
+    border: 1px solid black;
     width: 68%;
     padding: 1.25%;
   }
@@ -50,16 +51,15 @@
   
   #sendMail {
     text-transform: uppercase;
-    letter-spacing: .17em;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
+    letter-spacing: .15em;
+    background-color: white;
+    color: black;
+    border: 1.25px solid black;
     padding: 10px 20px;
     font-size: 1.1vw;
     margin-top: 15px;
   }
   
   #sendMail:hover {
-    background-color: white;
-    color: black;
+    color: grey;
   }

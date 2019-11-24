@@ -9,7 +9,7 @@ const Contact = () => {
                 <h1> Hello! / 你好 </h1>
                 <p> Have any questions or just want to say "hi?" </p>
                 <p>Drop me a line! I'll love to hear your thoughts. </p>
-                <img src="https://www.nicepng.com/png/full/366-3662305_free-png-white-paper-planplane-png-images-transparent.png"/>
+                <img alt='' src="https://www.nicepng.com/png/full/366-3662305_free-png-white-paper-planplane-png-images-transparent.png"/>
             </div>
 
             <div className = "contactBox">

@@ -1,0 +1,49 @@
+/* to make a modal box */
+/* .project-page {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 750px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #efeeee;
+    z-index: 100;
+    padding: 25px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+} */
+
+
+.project-page {
+    margin: 125px 22.5%;
+}
+
+.project-page h2 {
+    letter-spacing: .2em;
+}
+
+.project-page p {
+    margin: 0 5% 50px 5%;
+    line-height: 1.5em;
+    font-weight: 100;
+}
+
+.page-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.page-bottom-left {
+    border-right: 1px solid black;
+    width: 55%;
+    padding: 10px 0px;
+}
+
+.page-bottom-left a, .page-bottom-left a:visited {
+    color: #f79f99;
+}

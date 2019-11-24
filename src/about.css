@@ -1,0 +1,30 @@
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 115px 10%;
+    height: 100vh;
+}
+
+h2 {
+    letter-spacing: .075em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    display: block;
+}
+
+.skills img {
+    display: block;
+    height: 500px;
+}
+
+.summary {
+    width: 40%;
+    text-align: left;
+    line-height: 1.5em;
+}

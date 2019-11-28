@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from './projects';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import './welcome-page.css'
 
@@ -16,9 +17,8 @@ const Welcome = () => {
                         </div>
                         <div className = "bottom">
                             <ul>
-                                {/* <div className ="typeWrite">  &  I like to code </div> */}
                                 <div className = "exploreButton"> 
-                                    <a href="#projects">Explore</a>
+                                    <AnchorLink href="#projects">Explore</AnchorLink>
                                 </div>
                             </ul>
                         </div>

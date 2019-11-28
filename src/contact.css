@@ -1,13 +1,10 @@
 #contact-me { 
-    /* background-image: url("https://www.colorhexa.com/eeeeee.png"); */
-    /* background-color: #f7f7f7; */
     background: linear-gradient(35deg, #ffffff 65%, #f79f99 45%);
     position: absolute;
-    width: 100%;
-    margin:  -1vw;
+    width: 100% !important;
+    overflow-x: hidden !important;
     height: 100vh;
     text-align: left;
-    
   }
   
   .contactText {
@@ -26,7 +23,7 @@
   }
   
   .contactBox {
-    width: 49%;
+    width: 45%;
     float: right;
     display: inline-block;
     padding: 12% 1% 0% 0%;

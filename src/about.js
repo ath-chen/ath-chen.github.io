@@ -14,11 +14,11 @@ const About = () => {
                 <div className='summary'>
                     <h2>Hi, I'm Athena.</h2>
                     <br/>
-                    An accountant turned software engineer with a passion for building full stack applications and beautiful UI/UX experiences. 
+                    An accountant turned software engineer. I'm passionate about building full stack applications with beautiful UI/UX experiences. 
                     <p/>
-                    A nature girl at heart, you can (probably always) catch me hiking some random trail. To the left is a photo of me climbing down from Mount Batur after viewing the most stunning sunrise. 
+                    A nature girl at heart, you can (probably always) catch me hiking some random trail. To the left is a photo of me climbing down Mount Batur after viewing the most stunning sunrise. 
                     <p />
-                    If you are interested in working together, let's connect! You can reach me via e-mail or via LinkedIn.
+                    If you are interested in working together, let's connect! You can reach me via e-mail or LinkedIn.
 
                     {/* SKILLS: <p />
                     JavaScript <br />

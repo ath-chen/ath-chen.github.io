@@ -10,8 +10,8 @@ const Navbar = () => {
             <div className="navBar" id = "myHeader">
                 <div className="topNav">
                     <Link to="/website">Home</Link>&nbsp;•&nbsp;
-                    <NavLink smooth to="/#projects" activeClassName="selected">Portfolio</NavLink> •&nbsp;
-                    <NavLink smooth to="/#contact-me" activeClassName="selected">Contact</NavLink> •&nbsp;
+                    <NavLink smooth to="/website/#projects" activeClassName="selected">Portfolio</NavLink> •&nbsp;
+                    <NavLink smooth to="/website/#contact-me" activeClassName="selected">Contact</NavLink> •&nbsp;
                     <Link to='/about'>About</Link>
                 </div>
 

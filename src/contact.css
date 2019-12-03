@@ -4,9 +4,37 @@
     width: 100% !important;
     overflow-x: hidden !important;
     height: 100vh;
-    text-align: left;
-  }
-  
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+}
+
+.helloText {
+  margin-top: 150px;
+}
+
+.helloText h1 {
+  font-size: 55px;
+}
+
+.helloText p {
+  font-size: 19px;
+}
+
+.sayHello {
+    position: absolute;
+    border: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 17px;
+    margin-left: -75px;
+    margin-top: 50px;
+}
+
+
+/*   
   .contactText {
     width: 28%;
     float: left;
@@ -59,4 +87,4 @@
   
   #sendMail:hover {
     color: grey;
-  }
+  } */

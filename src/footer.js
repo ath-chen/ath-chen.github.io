@@ -7,7 +7,7 @@ const Footer = () => {
     let scrollStyle = {
         color: 'grey',
         bottom: 75,
-        right: 40,
+        right: 55,
     }
 
     return (
@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div id='footer-right'>
                 <ScrollToTop id='scrollUp' showUnder={160} style={scrollStyle}> 
-                    <img src='https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/15666712351530177268-512.png' width='25' height='25' alt='' />
+                    <img src='https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/15666712351530177268-512.png' width='30' height='30' alt='' />
                 </ScrollToTop>
 
                 <a href="https://www.linkedin.com/in/athena-chen-2264b393/" className="linkedin"><i className="fa fa-linkedin"></i></a>

@@ -11,13 +11,13 @@
     padding-bottom: 15px;
     position: absolute;
     z-index: 100;
-    width: 95%;
+    width: 92.5%;
     top: 0;
 }
 
 .topNav {
     float: right;
-    padding: 0% 8.5% 0% 0%;
+    padding: 0% 5% 0% 0%;
     font-size: 13px;
 }
   

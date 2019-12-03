@@ -5,7 +5,17 @@ import './contact.css'
 const Contact = () => {
     return (
         <div id = "contact-me">
-            <div className = "contactText">
+
+            <div className='helloText'>
+                <h1>hello! / 你好</h1>
+                <p> Have questions or just want to say hi? </p>
+                <p>Drop me a line! I'll love to hear your thoughts. </p>
+                <a href="mailto:athena.chen@baruchmail.cuny.edu" className="sayHello">Say Hello</a>
+            </div>
+
+
+            {/* IF I WANT THIS CODE AGAIN! */}
+            {/* <div className = "contactText">
                 <h1> Hello! / 你好 </h1>
                 <p> Have any questions or just want to say "hi?" </p>
                 <p>Drop me a line! I'll love to hear your thoughts. </p>
@@ -22,7 +32,8 @@ const Contact = () => {
                     <p /> <textarea id='messageBox' rows="4" cols="50" />
                 </div>
                 <button type="button" id="sendMail"> SEND </button>
-            </div>
+            </div> */}
+
         </div>
     )
 };

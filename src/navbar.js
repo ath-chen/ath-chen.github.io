@@ -19,9 +19,9 @@ const Navbar = () => {
                 {/* <div className = "dropNav">
                     <button type="button" id="dropbtn">Menu</button>
                     <div className="dropdown-content">
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
-                        <a href="#">About</a>
+                        <NavLink smooth to="/website/#projects" activeClassName="selected">Portfolio</NavLink> 
+                        <NavLink smooth to="/website/#contact-me" activeClassName="selected">Contact</NavLink> 
+                        <Link to='/about'>About</Link>
                     </div>
                 </div> */}
 

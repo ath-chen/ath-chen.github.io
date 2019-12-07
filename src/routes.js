@@ -6,7 +6,7 @@ import Welcome from './welcome-page';
 import Projects from './projects';
 import Contact from './contact';
 import Project1 from './project1';
-import Project2 from './project2'
+import Project2 from './project2';
 
 class Routes extends Component {
   render() {

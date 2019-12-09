@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import pdf from './resume.pdf';
+import pdf from './resume-ac.pdf';
 
 import './navbar.css';
 

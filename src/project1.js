@@ -9,7 +9,7 @@ const Project1 = () => {
             <h2>pictionary</h2>
             <br/>
             
-            <p>I have always been drawn to learning new phrases in different languages, which inspired me to build this project. During a four day hackathon, I built a web based application that recognizes objects through the use of Vision AI with the capability of translating the identified English word to a language of your choosing.</p>
+            <p>I have always been drawn to learning new phrases in different languages, which inspired me to build this project. During a four day hackathon, I built a web based application that recognizes objects through the use of Vision AI with the capability of translating the identified English words to a language of your choosing.</p>
 
             <img src={Photo} alt='' width='100%'></img>
             <br/>

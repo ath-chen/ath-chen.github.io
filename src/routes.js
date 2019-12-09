@@ -7,6 +7,7 @@ import Projects from './projects';
 import Contact from './contact';
 import Project1 from './project1';
 import Project2 from './project2';
+import Project3 from './project3';
 
 class Routes extends Component {
   render() {
@@ -20,6 +21,7 @@ class Routes extends Component {
 
         <Route exact path='/project1' component={Project1}></Route>
         <Route exact path='/project2' component={Project2}></Route>
+        <Route exact path='/project3' component={Project3}></Route>
       </Switch>
     )
   }

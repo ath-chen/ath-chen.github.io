@@ -8,9 +8,59 @@
 .project-title {
     font-weight: bold;
     text-align: center;
+    font-size: 3.75vw;
+    letter-spacing: .17em;
+    padding: 12vh 0px 0px 0px;
+}
+
+.first-row-project {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2.5%;
+  min-height: 55vh;
+}
+  
+#projects img {
+    width: 500px;
+    height: 275px; 
+    object-fit: cover;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+  
+.first-project-left:hover, .first-project-right:hover {
+    opacity: .45;
+}
+
+@media screen and (max-width: 1150px) {
+    .first-row-project {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 5%;
+      }
+  }
+
+
+
+/* IN CASE I WANT TO DO HORIZONTAL SCROLLING AGAIN */
+/* #projects {
+    background: white;
+    min-height: 100vh;
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    padding-top: 4%;
+}
+  
+.project-title {
+    font-weight: bold;
+    text-align: center;
     font-size: 4vw;
     letter-spacing: .17em;
     padding: 55px 0px 0px 0px;
+    padding-bottom: 7vh;
+    background: #f7f7f7;
 }
 
 .first-row-project {
@@ -28,14 +78,41 @@
   
 .first-project-left:hover, .first-project-right:hover {
     opacity: .55;
+} */
+
+/* div.scrollmenu {
+    background: #f7f7f7;
+    overflow: auto;
+    white-space: nowrap;
+    min-height: 55vh;
+    padding: 0 25vw 7vh 25vw;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 25%;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-right: 100px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu img {
+    width: 500px;
+    height: 275px; 
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
-@media screen and (max-width: 1150px) {
-    .first-row-project {
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin: 5%;
-      }
-  }
+div.scrollmenu img:hover {
+    opacity: 1.0;
+}
+
+.first-project-left{
+    scroll-snap-align: center;
+    opacity: 1.0;
+} */
   

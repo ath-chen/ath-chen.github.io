@@ -19,8 +19,9 @@ h2 {
 }
 
 .skills img {
-    display: block;
-    height: 500px;
+    display: right;
+    height: 65%;
+    width: auto;
 }
 
 .summary {
@@ -29,3 +30,18 @@ h2 {
     line-height: 1.5em;
     text-align: justify;
 }
+
+@media screen and (max-width: 1000px) {
+    #about {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 15% 5%;
+        align-items: center;
+    }
+    .skills img {
+        display: right;
+        height: auto;
+        width: 75%;
+    }
+  }

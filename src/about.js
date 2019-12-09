@@ -9,8 +9,8 @@ const About = () => {
             <div id="about">
                 <div className="skills">
                     <img src={photo} alt='' width='80%'></img>
-                    
                 </div>
+                
                 <div className='summary'>
                     <h2>Hi, I'm Athena.</h2>
                     <br/>

@@ -52,6 +52,43 @@
     text-transform: uppercase;
     letter-spacing: .15em;
     font-weight: bold;
-    padding: 1%;
-    font-size: 17px;
+    padding: 1.5%;
+    font-size: 2vw;
+}
+
+
+
+
+@media screen and (min-width: 1100px) {
+  .exploreButton {
+     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bottom {
+    padding: 0% 25vw 0% 7vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #welcome-page {
+    background-color: #f79f99;
+    padding: 25vh 15vw 0vh 12vw;
+    justify-content: left;
+    display: flex;
+    min-height: 75vh;
+  }
+
+  .typeWrite {
+    font-size: 8vw;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  #welcome-page {
+    margin-left: -7%;
+  }
 }

@@ -12,8 +12,8 @@ function App() {
         <header className="App-header">
             <Navbar />
             <Routes />
-            <Footer />
         </header>
+        <Footer />
       </div>
   );
 }

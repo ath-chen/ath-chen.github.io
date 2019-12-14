@@ -31,6 +31,8 @@ h2 {
     text-align: justify;
 }
 
+
+
 @media screen and (max-width: 1000px) {
     #about {
         display: flex; 
@@ -40,8 +42,44 @@ h2 {
         align-items: center;
     }
     .skills img {
-        display: right;
-        height: auto;
-        width: 75%;
+        margin: 15vh 0 5vh -19vw;
+        height: 375px;
+        width: 70vw;
+        object-fit: cover;
     }
-  }
+    .summary {
+        width: 80%;
+        margin-bottom: 25vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #about {
+        margin-top: -25%;
+    }
+    .skills img {
+        margin: -55vh 0 -35vh -19vw;
+    }
+    .summary {
+        margin-top: -17%;
+        margin-bottom: -95vh;
+    }
+}
+
+@media screen and (max-device-height: 825px) {
+    #about {
+        margin-top: -30vh;
+    }
+}
+
+@media screen and (max-device-height: 750px) {
+    #about {
+        margin-top: -23vh;
+    }
+}
+
+@media screen and (max-device-height: 670px) {
+    #about {
+        margin-top: -15vh;
+    }
+}

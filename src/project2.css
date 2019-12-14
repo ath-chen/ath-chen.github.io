@@ -32,3 +32,21 @@
 .page-bottom-left a, .page-bottom-left a:visited {
     color: #f79f99;
 }
+
+@media screen and (max-width: 1000px) {
+    .project-page {
+        margin: 125px 5%;
+    }
+    .page-bottom {
+        display: flex; 
+        flex-direction: column;
+    }
+    .page-bottom-left {
+        border-bottom: 1px solid black;
+        border-right: 0px;
+        margin-bottom: 7px;
+    }
+    .page-bottom-right {
+        margin-top: -25px;
+    }
+}

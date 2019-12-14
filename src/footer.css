@@ -24,3 +24,46 @@
 .email {
   padding: 0px 7% 0px 7px;
 }
+
+.credits {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f79f99;
+    height: 125px;
+    width: 100%;
+    margin-left: -1%;
+    margin-top: -5%;
+    padding-left: 1%;
+  }
+  
+  .credits {
+    display: block;
+    font-size: 2vw;
+    letter-spacing: normal;
+    padding-top: 25px;
+    font-style: normal;
+  }
+
+  #footer-right {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    height: 75px;
+  }
+
+  .credits {
+    padding-top: 15px;
+  }
+}

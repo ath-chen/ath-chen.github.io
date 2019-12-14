@@ -1,6 +1,7 @@
 import React from 'react';
 import Projects from './projects';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Contact from './contact';
 
 import './welcome-page.css'
 
@@ -27,6 +28,7 @@ const Welcome = () => {
             </div>
 
             <Projects />
+            <Contact />
             
         </div>
     );

@@ -26,6 +26,7 @@ const Footer = () => {
                 <a href="mailto:athena.chen@baruchmail.cuny.edu" className="email"><i className="fa fa-envelope"></i></a>
                 
             </div>
+            <div className='credits'>Designed & built by Athena Chen, 2019</div>
             
         </div>
     );

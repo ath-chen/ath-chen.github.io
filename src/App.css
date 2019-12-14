@@ -19,5 +19,11 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(180, 131, 131);
+}
+
+@media screen and (max-width: 800px) {
+  .App-header {
+    margin-bottom: 75vh;
+  }
 }

@@ -8,24 +8,27 @@ import './navbar.css';
 const Navbar = () => {
     return (
         <div id = "header">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
             <div className="navBar" id = "myHeader">
                 <div className="topNav">
-                    {/* <Link to="/website">Home</Link>&nbsp;•&nbsp; */}
-                    <a href={pdf} rel="noopener" target = "_blank">Resume</a> •&nbsp;
-                    <NavLink smooth to="/website/#projects" activeClassName="selected">Portfolio</NavLink> •&nbsp;
-                    <NavLink smooth to="/website/#contact-me" activeClassName="selected">Contact</NavLink> •&nbsp;
-                    <Link to='/about'>About</Link>
+                    <Link to="/website">Home</Link>&nbsp;•&nbsp;
+                    {/* <a href={pdf}>Resume</a> •&nbsp; */}
+                    <NavLink smooth to="/website/#projects" activeClassName="max-screen">Portfolio</NavLink> •&nbsp;
+                    <NavLink smooth to="/website/#contact-me" activeClassName="max-screen">Contact</NavLink> •&nbsp;
+                    <Link to='/about' activeClassName="max-screen">About</Link>
                 </div>
 
+
                 {/* For responsive web page */}
-                {/* <div className = "dropNav">
-                    <button type="button" id="dropbtn">Menu</button>
+                <div className = "dropNav">
+                    <i class="fa fa-align-justify" id="dropbtn"></i>
                     <div className="dropdown-content">
-                        <NavLink smooth to="/website/#projects" activeClassName="selected">Portfolio</NavLink> 
-                        <NavLink smooth to="/website/#contact-me" activeClassName="selected">Contact</NavLink> 
-                        <Link to='/about'>About</Link>
+                        <NavLink smooth to="/website/#projects" activeClassName="min-screen" className="min-screen">Portfolio</NavLink> 
+                        <NavLink smooth to="/website/#contact-me" activeClassName="min-screen" className="min-screen">Contact</NavLink> 
+                        <Link to='/about' className="min-screen">About</Link>
                     </div>
-                </div> */}
+                </div>
 
             </div>
         </div>

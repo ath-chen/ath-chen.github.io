@@ -25,22 +25,39 @@
     width: 500px;
     height: 275px; 
     object-fit: cover;
-    margin-right: 3vw;
-    margin-left: 3vw;
+    margin: 0px 3vw 3vh 3vw ;
 }
   
 .first-project-left:hover, .first-project-right:hover {
     opacity: .45;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
     .first-row-project {
         display: flex; 
         flex-direction: column;
         justify-content: space-evenly;
         margin: 5%;
       }
-  }
+}
+
+@media screen and (max-width: 600px) {
+    #projects img {
+        width: 400px;
+        height: 250px; 
+        object-fit: cover;
+        margin: 0px 3vw 3vh 3vw ;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #projects img {
+        width: 300px;
+        height: 175px; 
+        object-fit: cover;
+        margin: 0px 3vw 3vh -1vw;
+    }
+}
 
 
 

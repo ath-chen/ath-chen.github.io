@@ -1,16 +1,20 @@
 #projects {
     background: #f7f7f7;
-    min-height: 100vh;
+    max-height: 100vh;
     width: 100% !important;
     overflow-x: hidden !important;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 }
-  
+
 .project-title {
     font-weight: bold;
     text-align: center;
     font-size: 3.75vw;
     letter-spacing: .17em;
     padding: 12vh 0px 0px 0px;
+    display: none;
 }
 
 .first-row-project {
@@ -22,23 +26,101 @@
 }
   
 #projects img {
-    width: 500px;
-    height: 275px; 
+    width: 100%;
+    height: auto;
     object-fit: cover;
-    margin: 0px 3vw 3vh 3vw ;
-}
-  
-.first-project-left:hover, .first-project-right:hover {
-    opacity: .45;
 }
 
-@media screen and (max-width: 1200px) {
+
+
+/* FOR TESTING PURPOSES */
+.full-page-projs {
+    float: right;
+    width: 50%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.full-page-projs::-webkit-scrollbar {
+    display: none;
+}
+
+.child {
+    scroll-snap-align: center;
+}
+
+#proj1-img, #proj2-img, #proj3-img {
+    opacity: .25;
+}
+
+#proj3-img {
+    margin-bottom: -10px;
+}
+
+#try, #skin, #pic {
+    display: none;
+}
+
+.proj-name span{
+    font-size: 3vw;
+    font-weight: bold;
+    color: #f79f99;
+}
+
+.projects-right {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 18vh 5vw;
+    width: 30%
+}
+
+/* .skills {
+    display: flex; 
+    flex-direction: row;
+}
+
+.skills-box {
+    text-align: left;
+    margin: 0 5vw 0 0;
+}
+
+.skills-box p {
+    font-weight: bold;
+} */
+
+/* TESTING PURPOSES */
+
+
+
+
+@media screen and (max-width: 1000px) {
     .first-row-project {
         display: flex; 
         flex-direction: column;
         justify-content: space-evenly;
         margin: 5%;
-      }
+    }
+    #projects {
+        max-height: none;
+        padding-bottom: 5%;
+    }
+    .project-title {
+        display: block;
+    }
+    #projects img {
+        padding: 2.5% 0px;
+        opacity: 1;
+    }
+    .projects-right {
+        display: none;
+    }
+    .full-page-projs {
+        width: 80%;
+        overflow-y: hidden;
+        padding: 0% 15%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -52,84 +134,10 @@
 
 @media screen and (max-width: 450px) {
     #projects img {
-        width: 300px;
-        height: 175px; 
+        width: 100%;
+        height: 50%;
         object-fit: cover;
         margin: 0px 3vw 3vh -1vw;
     }
 }
 
-
-
-/* IN CASE I WANT TO DO HORIZONTAL SCROLLING AGAIN */
-/* #projects {
-    background: white;
-    min-height: 100vh;
-    width: 100vw !important;
-    overflow-x: hidden !important;
-    padding-top: 4%;
-}
-  
-.project-title {
-    font-weight: bold;
-    text-align: center;
-    font-size: 4vw;
-    letter-spacing: .17em;
-    padding: 55px 0px 0px 0px;
-    padding-bottom: 7vh;
-    background: #f7f7f7;
-}
-
-.first-row-project {
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 5%;
-}
-  
-#projects img {
-    width: 500px;
-    height: 275px; 
-    object-fit: cover;
-}
-  
-.first-project-left:hover, .first-project-right:hover {
-    opacity: .55;
-} */
-
-/* div.scrollmenu {
-    background: #f7f7f7;
-    overflow: auto;
-    white-space: nowrap;
-    min-height: 55vh;
-    padding: 0 25vw 7vh 25vw;
-    scroll-snap-type: x mandatory;
-    scroll-padding: 25%;
-  }
-  
-  div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding-right: 100px;
-    text-decoration: none;
-  }
-
-  div.scrollmenu img {
-    width: 500px;
-    height: 275px; 
-    width: 50vw;
-    height: 50vh;
-    object-fit: cover;
-    opacity: 0.7;
-}
-
-div.scrollmenu img:hover {
-    opacity: 1.0;
-}
-
-.first-project-left{
-    scroll-snap-align: center;
-    opacity: 1.0;
-} */
-  

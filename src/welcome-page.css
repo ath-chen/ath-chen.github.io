@@ -52,7 +52,7 @@
     text-transform: uppercase;
     letter-spacing: .15em;
     font-weight: bold;
-    padding: 1.5%;
+    padding: 1.1%;
     font-size: 2vw;
 }
 
@@ -75,20 +75,20 @@
 
   #welcome-page {
     background-color: #f79f99;
-    padding: 25vh 15vw 0vh 12vw;
+    padding: 25vh 0vw 0vh 11vw;
     justify-content: left;
     display: flex;
     min-height: 75vh;
+    width: 89vw !important;
   }
 
   .typeWrite {
     font-size: 8vw;
   }
-
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   #welcome-page {
-    margin-left: -7%;
+    padding: 25vh 5.5vw 0vh 5.5vw;
   }
 }

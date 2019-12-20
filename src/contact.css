@@ -9,15 +9,15 @@
 }
 
 .helloText {
-  margin-top: 17vh;
+  margin-top: 20vh;
 }
 
 .helloText h1 {
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 
 .helloText p {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 
 .sayHello {
@@ -27,7 +27,7 @@
     letter-spacing: .15em;
     font-weight: bold;
     padding: 1%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-left: -75px;
     margin-top: 50px;
 }

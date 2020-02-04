@@ -51,19 +51,19 @@ const Projects = () => {
 
             <div className='full-page-projs' id='full' onLoad={alert1} onScrollCapture={seemore}>
                 <h1 className="project-title">Some Things I've built</h1>
-                 <Link to='/project3'>
+                 <Link to='/project3' target="_blank">
                     <div className = "child">
                         <img src={project3} alt='' id='proj1-img'/>
                     </div>
                 </Link>
 
-                <Link to='/project2'>
+                <Link to='/project2' target="_blank">
                     <div className = "child">
                         <img src={project2} alt='' id='proj2-img' />
                     </div>
                 </Link>
                     
-                <Link to='/project1'>
+                <Link to='/project1' target="_blank">
                     <div className = "child">
                         <img src={project1} alt='' id='proj3-img'/>
                     </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                 <p/> 
                 __________________________
                 <h4>FEATURED PROJECTS</h4> 
-                Showcasing a few things I have built. Want to learn more? Hover over the projects, scroll, and click to get the deets. <br/>
+                Showcasing a few things I have built. Want to learn more? Hover over the projects, scroll, and click for more. <br/>
                 
                 <p/>
 

@@ -1,6 +1,7 @@
 #projects {
     background: #f7f7f7;
     max-height: 100vh;
+    /* max-height: 75vw; */
     width: 100% !important;
     overflow-x: hidden !important;
     display: flex;

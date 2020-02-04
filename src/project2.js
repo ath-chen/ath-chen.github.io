@@ -6,6 +6,8 @@ import Photo from './project-images/cloak-n-dogger-thumbnail.jpg'
 const Project2 = () => {
     return (
         <div className="project-page">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
             <h2>cloak & dogger</h2>
             <br/>
             
@@ -19,7 +21,8 @@ const Project2 = () => {
             <div className='page-bottom'>
                 <div className='page-bottom-left'>
                     <b>November 2019</b> <br />
-                    <a href="https://github.com/ath-chen/grace-shopper">View on Github</a>
+                    <i className="fa fa-github"></i> <a href="https://github.com/ath-chen/grace-shopper" className='link' target="_blank">View on Github</a> <br/>
+                    <i className="fa fa-link"></i> <a href="https://cloak-n-dogger.herokuapp.com/" className='link' target="_blank">Deployed Site</a>
                 </div>
                 <p />
                 <div className='page-bottom-right'>
